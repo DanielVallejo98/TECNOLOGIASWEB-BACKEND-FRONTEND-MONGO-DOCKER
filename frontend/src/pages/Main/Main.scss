@@ -1,0 +1,51 @@
+.main-page-container {
+  margin: 0;
+  background: linear-gradient(-45deg, #cdf3f5, #ffffff, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease;
+
+  animation-fill-mode: forwards;
+  animation-iteration-count: 2;
+  height: 100%;
+
+  font-weight: 400;
+  line-height: 1.5;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+.my-card {
+  background-color: transparent;
+  border-radius: 7px;
+
+  overflow: hidden;
+  position: relative;
+}
+.my-card:before {
+  background-color: transparent;
+  backdrop-filter: blur(30px) saturate(40%) contrast(80%) brightness(130%);
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}

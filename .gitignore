@@ -1,0 +1,12 @@
+__pycache__/
+ubuntu-bionic-18.04-cloudimg-console.log
+.vagrant
+/frontend/build
+/frontend/node_modules
+/frontend/.pnp
+
+
+# testing
+/frontend/coverage
+
+# production

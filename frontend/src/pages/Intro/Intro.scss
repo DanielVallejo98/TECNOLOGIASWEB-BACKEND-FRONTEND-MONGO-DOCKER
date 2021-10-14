@@ -1,0 +1,46 @@
+.resize{
+    height: 41.2rem;
+    object-fit: cover;
+    bottom: 10rem;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.5);
+}
+.navbar{
+    padding: 0 1rem;
+}
+.carousel-control-next, .carousel-control-prev {
+
+    opacity: 0.5 ;
+}
+.visually-hidden{
+    display: none;
+}
+.carousel-indicators {
+    display: none;
+
+}
+.dropdown-menu {
+
+    background-color: transparent;
+    backdrop-filter: blur(50px) saturate(100%) contrast(90%) brightness(130%);
+}
+
+
+@media (min-width: 768px){
+    .resize{
+        height: 54.4rem;
+    }
+    .carousel-caption{
+        bottom: 20rem;
+    }
+}
+@media (min-width: 1024px){
+    .resize{
+        height: 31.5rem;
+    }.carousel-caption{
+        bottom: 15px;
+    }
+
+}
+

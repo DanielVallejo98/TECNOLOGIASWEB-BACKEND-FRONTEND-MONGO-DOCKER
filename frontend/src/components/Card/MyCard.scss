@@ -1,0 +1,41 @@
+@media (max-width: 1200px ) { 
+    .margin-bottom{
+        margin-bottom: 4rem;
+    }
+ }
+
+ 
+ @media (min-width: 576px){
+
+ .container {
+     max-width: 400px;
+ }
+}
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+    .height{
+        height: 12rem;
+    }
+    .height-body{
+        height: 10rem;
+    }
+    .height-img{
+        height: 12rem;
+    }
+}
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+    .height{
+        height: 15rem;
+    }
+    .height-img{
+        height: 10rem;
+    }
+    .height-body{
+        height: 13rem;
+    }
+}
